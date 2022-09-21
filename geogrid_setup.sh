@@ -336,13 +336,13 @@ ref_lon=${cent_lon}
    echo " e_sn              =   ${e_sn}" >> ${temp_namelist_wps_fil}
    echo " dx = ${dx}," >> ${temp_namelist_wps_fil}
    echo " dy = ${dy}," >> ${temp_namelist_wps_fil}
-   echo " map_proj = ${MAP_PROJ}," >> ${temp_namelist_wps_fil}
+   echo " map_proj = '${MAP_PROJ}'," >> ${temp_namelist_wps_fil}
    echo " ref_lat  = ${ref_lat}," >> ${temp_namelist_wps_fil}
    echo " ref_lon  = ${ref_lon}," >> ${temp_namelist_wps_fil}
    echo " truelat1 = ${TRUELAT1}," >> ${temp_namelist_wps_fil}
    echo " truelat2 = ${TRUELAT2}," >> ${temp_namelist_wps_fil}
    echo " stand_lon = ${STAND_LON}," >> ${temp_namelist_wps_fil}
-   echo " geog_data_path = Need to provide path to geographical data, this might have to depend on the highest grid resolution being asked for" >> ${temp_namelist_wps_fil}
+   echo " geog_data_path = '/home/earajr/WPS_GEOG'" >> ${temp_namelist_wps_fil}
    echo "/" >> ${temp_namelist_wps_fil}
    echo "" >> ${temp_namelist_wps_fil}
    
